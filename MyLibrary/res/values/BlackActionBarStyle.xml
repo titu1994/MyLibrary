@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="Theme.Sherlock.Light.DarkActionBar.ForceOverflow" name="Theme.Mine.Light.DarkActionBar.ForcedOverflow">
+        <item name="actionBarStyle"> @style/Widget.MyCustom.ActionBar.White </item>
+        <item name="android:actionBarStyle"> @style/Widget.MyCustom.ActionBar.White </item>
+    </style>
+    
+    <style parent="Theme.Sherlock.Light.DarkActionBar" name="Theme.Mine.Light.DarkActionBar">
+        <item name="actionBarStyle"> @style/Widget.MyCustom.ActionBar.White </item>
+        <item name="android:actionBarStyle"> @style/Widget.MyCustom.ActionBar.White </item>
+    </style>
+    
+    <style name="Widget.MyCustom.ActionBar.DarkActionBar" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="background" >@drawable/darkbackground</item>
+        <item name="android:background" >@drawable/darkbackground</item>
+    </style>
+</resources>

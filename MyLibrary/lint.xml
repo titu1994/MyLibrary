@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DrawAllocation">
+        <ignore path="src\com\MyLibrary\Views\ICS\SupportGridLayout.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src\com\MyLibrary\ActionModes\ListViewContextualActionMode.java" />
+        <ignore path="src\com\MyLibrary\Renderscript\Kernel\RenderScriptKernelProcessor.java" />
+    </issue>
+</lint>
